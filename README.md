@@ -2,7 +2,6 @@
 
 Brew Tap for installing software I use but don't have an existing formula
 
-BUMP CI
 ## How do I install these formulae?
 
 `brew install hellothisisflo/the-tap/<formula>`
