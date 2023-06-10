@@ -8,7 +8,7 @@ class Vmd < Formula
 
   def install
     # Extract the downloaded zip file
-    system "unzip", "#{cached_download}", "-d", "#{prefix}"
+    system "unzip", cached_download, "-d", prefix
 
     # Create a symlink to the vmd binary
     bin.install_symlink "#{prefix}/vmd.app/Contents/MacOS/vmd"
